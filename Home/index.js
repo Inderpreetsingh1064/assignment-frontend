@@ -21,7 +21,6 @@ const Home = (props) => {
       temp();
     }
     else{
-    console.log(res.data.collegename)
     let myCollegeName=[];
     var i=0;
      for(let obj of res.data.collegename){
